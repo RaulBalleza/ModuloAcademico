@@ -1,0 +1,27 @@
+{
+  "DataBase": {
+    "TypeUser": {
+      "admi" : {
+        "User": "admi",
+        "Pass": "TaLs8D3s"
+      },
+      "dire": {
+        "User": "dire",
+        "Pass": "wTbTyt9D"
+      },"alu": {
+        "User": "dire",
+        "Pass": "wTbTyt9D"
+      },
+      "prof": {
+        "User": "prof",
+        "Pass": "vjeB6x7C"
+      },
+      "default": {
+        "User": "default",
+        "Pass": "WV2JLVcY"
+      }
+    },
+    "Schema" : "horarios",
+    "Host": "127.0.0.1"
+  }
+}
