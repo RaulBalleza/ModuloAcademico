@@ -1,0 +1,68 @@
+body{
+    background: #fff;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 9;
+    font-family: monospace;
+}
+
+form{
+    width: 1250px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input, textare{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+}
+
+#boton{
+    background: #31384A;
+    color: white;
+    padding: 10px;
+}
+
+#boton:hover{
+    cursor:pointer;
+}
+
+
+
+
+
+@media(max-width: 480px){
+    form{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

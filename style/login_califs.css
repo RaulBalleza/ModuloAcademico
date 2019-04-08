@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(../img/fondo3.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+}
+
+form{
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    max-width: 500px;
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.8);
+}
+
+input{
+    background: rgba(255,255,255,0.0);
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 15px;
+    color: #fff;
+
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(255,255,255,0.3);
+}
+
+input[type="button"] {
+  margin-top: 70px;
+  padding: 10px;
+  background: rgba(255,255,255,0.0);
+  border: 1px solid;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+input[type="button"]:hover{
+    /*background: rgba(255,255,255,0.0);*/
+    background-color: #fff;
+    color: rgba(0,0,0,0.8);
+}
+
+input[type="button"]:active{
+    transform: scale(0.95);
+}
+
+#msnAlert {
+  text-align: center;
+  color: #e52051;
+}
+
+
+@media(max-width:768px){
+    form{
+        width: 75%;
+    }
+}
+
+@media(max-width:480px){
+    form{
+        width: 95%;
+    }
+}
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.5);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255,0.5);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255,0.5);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,0.5);
+}

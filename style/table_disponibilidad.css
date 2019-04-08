@@ -1,0 +1,21 @@
+thead {
+  color: green;
+  background-color: #afbbce;
+}
+
+td {
+  background-color: #FFF;
+  height: 25px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+td.espacio_tiempo {
+  background-color: #97a0af;
+  border: 2px none;
+}
+
+tr.separador {
+  height: 10px;
+  background-color: #9b56a5;
+}
