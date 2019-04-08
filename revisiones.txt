@@ -1,0 +1,17 @@
+--Login, clic en el botón --hecho !!
+
+--El inicio, mostrar el número de cada cosa - o hipervinculos --hecho !!
+
+/* El director puede modificar la disponibilidad del profesor */ --pendiente por confirmar
+
+--Al modificar la posicion de una materia no está validado, lo mismo pasa si se intenta cambiar de cuatrimestre y la posición del nuevo cuatrimestre ya está ocupada, en ambos casos se empalman --hecho !!
+
+--En evaluar al profesor, en seleccionar profesor se puede seleccionar un profesor que ya está en la lista  --hecho !!
+
+--Un ing. o lic. puede ser PTC? --hecho !!
+
+--El director puede ser PA --hecho !!
+
+--Puede haber 2 directores de carrera --hecho !!
+
+--Es normal que al intentar cambiar una materia de plan, diga que ya está registrada? --hecho !!
